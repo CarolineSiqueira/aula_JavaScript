@@ -108,3 +108,9 @@ function funcaoChange(elemento){
     console.log(elemento.value)
 }
 
+//Alterar item em um array
+let shopping = ['blusa','calça','carrinho','sapato'];
+shopping[0] = 'camisa';
+
+
+
