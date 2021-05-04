@@ -16,6 +16,10 @@ lista.join("|") //Separando os itens
 
 lista.toString() //Mostra os itens fora do array
 
+lista.unshift('banana'); //Incluir item no início do array
+
+let removedItem = lista.shift(); //Remover o primeiro item do array
+
 var frutas=[{nome:"banana", cor:"amarela"},{nome:"uva", cor:"roxa"},{nome:"morango", cor:"vermelho"}]
 console.log(frutas);
 console.log(frutas[2].cor);

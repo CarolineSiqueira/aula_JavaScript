@@ -1,24 +1,11 @@
-/*var nome = "Caroline Siqueira";
+
+var nome = "Caroline Siqueira";
 alert("Bem vindo "+ nome);
 var frase = "Curso de JavaScript";
 console.log(frase.toUpperCase());
-alert(frase.replace("Curso", "aula"));*/
+alert(frase.replace("Curso", "aula"));
 
 
-
-
-/*var lista = ["maça","pêra","laranja"];
-lista.push("uva");
-lista.pop();
-console.log(lista);
-console.log(lista.toString());
-console.log(lista.join("|"));
-
-
-
-var frutas=[{nome:"banana", cor:"amarela"},{nome:"uva", cor:"roxa"},{nome:"morango", cor:"vermelho"}]
-console.log(frutas);
-console.log(frutas[2].cor);
 
 
 
@@ -77,7 +64,7 @@ function validaIdade(idade){
 var idade = prompt("Qual é a sua idade?");
 console.log(validaIdade(idade));
 
-*/
+
 
 function clicar(){
     document.getElementById("agradecimento").innerHTML = "Obrigado pela inscrição!";
@@ -108,9 +95,13 @@ function funcaoChange(elemento){
     console.log(elemento.value)
 }
 
-//Alterar item em um array
-let shopping = ['blusa','calça','carrinho','sapato'];
-shopping[0] = 'camisa';
+
+
+
+
+
+
+
 
 
 
