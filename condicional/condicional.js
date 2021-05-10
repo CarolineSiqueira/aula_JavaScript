@@ -1,4 +1,4 @@
-
+// Function setWeather
 const select = document.querySelector('select');
 const para = document.querySelector('p');
 
@@ -20,6 +20,8 @@ function setWeather() {
   }
 
 }
+
+
 
 //COM SWITCH
 const select = document.querySelector('select');
@@ -160,3 +162,19 @@ function update(bgColor, textColor) {
  html.style.color = textColor;
 }
 */
+
+//Function addGoal
+
+const buttonEl = document.querySelector('button');
+const inputEl = document.querySelector('input');
+const listEl = document.querySelector('ul');
+
+function addGoal() {
+    const enteredValue = inputEl.value;
+    const listItemEl = document.createElement('ul');
+    listItemEl.textContent = enteredValue;
+    listEl.appendChild(listItemEl);
+    inputEl.value = '';
+}
+
+buttonEl.addEventListener('click', addGoal);
